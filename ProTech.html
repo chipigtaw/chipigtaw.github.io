@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://protech.gta.world/forum/favicon.ico" type="image/x-icon"/>
+    <title>ProTech - Security Compliance Notice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html, body {
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: #fff;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: #000;
+            border: 2px solid #d4af37;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+        }
+        
+        .header {
+            background: #d4af37;
+            padding: 25px;
+            text-align: center;
+            color: #000;
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+        }
+        
+        .tagline {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .title {
+            font-size: 24px;
+            color: #d4af37;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #d4af37;
+            padding-bottom: 10px;
+        }
+        
+        .warning {
+            background: #cc0000;
+            color: white;
+            padding: 12px;
+            margin: 20px 0;
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 30px 0;
+            padding: 20px;
+            background: #1a1a1a;
+            border-left: 4px solid #d4af37;
+            border: 1px solid #333;
+        }
+        
+        .info-row {
+            margin-bottom: 15px;
+        }
+        
+        .label {
+            color: #d4af37;
+            font-weight: bold;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 5px;
+        }
+        
+        .value {
+            color: #fff;
+            font-size: 14px;
+        }
+        
+        .overdue {
+            color: #ff0000;
+            font-weight: bold;
+        }
+        
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            border: 1px solid #333;
+        }
+        
+        .table th {
+            background: #d4af37;
+            color: #000;
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 11px;
+            letter-spacing: 1px;
+        }
+        
+        .table td {
+            padding: 12px;
+            border-bottom: 1px solid #333;
+            font-size: 13px;
+            color: #fff;
+        }
+        
+        .table tr:nth-child(even) {
+            background: #1a1a1a;
+        }
+        
+        .amount {
+            color: #d4af37;
+            font-weight: bold;
+            text-align: right;
+        }
+        
+        .total {
+            background: #1a1a1a;
+            padding: 20px;
+            border-top: 2px solid #d4af37;
+            border: 1px solid #333;
+            text-align: right;
+        }
+        
+        .total-line {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #fff;
+        }
+        
+        .final {
+            font-size: 20px;
+            font-weight: bold;
+            color: #d4af37;
+            border-top: 2px solid #d4af37;
+            padding-top: 12px;
+            margin-top: 12px;
+        }
+
+        .payment {
+            padding: 25px;
+            background: #1a2332;
+            border: 1px solid #4a6fa5;
+            margin: 25px 0;
+        }
+        
+        .payment h3 {
+            color: #ffffff;
+            font-size: 18px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .payment-details {
+            background: rgba(0,0,0,0.4);
+            padding: 20px;
+            border: 1px solid #4a6fa5;
+            margin: 15px 0;
+        }
+        
+        .payment-line {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(74,111,165,0.2);
+            color: #fff;
+        }
+        
+        .payment-line:last-child {
+            border-bottom: none;
+        }
+        
+        .payment-label {
+            color: #4a9eff;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        
+        .payment-value {
+            font-family: 'Courier New', monospace;
+            background: rgba(74,159,255,0.1);
+            padding: 4px 8px;
+            border: 1px solid rgba(74,159,255,0.3);
+            color: #fff;
+        }
+        
+        .payment-note {
+            font-size: 13px;
+            color: #b8c5d1;
+            background: rgba(255,255,255,0.05);
+            padding: 12px;
+            border-left: 3px solid #4a6fa5;
+            margin-top: 15px;
+        }
+        
+        .compliance {
+            padding: 20px;
+            background: #2d0000;
+            border-left: 4px solid #cc0000;
+            border: 1px solid #660000;
+            margin: 20px 0;
+        }
+        
+        .compliance h3 {
+            color: #ff0000;
+            font-size: 16px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .compliance p {
+            font-size: 12px;
+            line-height: 1.5;
+            color: #fff;
+            text-align: justify;
+        }
+        
+        .footer {
+            padding: 15px;
+            background: #000;
+            border-top: 1px solid #333;
+            text-align: center;
+            font-size: 10px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">PROTECH</div>
+            <div class="tagline">Security Solutions</div>
+        </div>
+
+        <div class="content">
+            <div class="title">Security Compliance Notice</div>
+            <div class="warning" id="warning-status">⚠ PAYMENT REQUIRED - FEDERAL COMPLIANCE ⚠</div>
+
+            <div class="info">
+                <div class="info-column">
+                    <div class="info-row">
+                        <div class="label">Notice ID:</div>
+                        <div class="value" id="notice-id">PSS-COMP-2025-3847</div>
+                    </div>
+                    <div class="info-row">
+                        <div class="label">Issue Date:</div>
+                        <div class="value" id="issue-date">August 25, 2025</div>
+                    </div>
+                    <div class="info-row">
+                        <div class="label">Compliance Type:</div>
+                        <div class="value">Federal Security Audit</div>
+                    </div>
+                </div>
+                <div class="info-column">
+                    <div class="info-row">
+                        <div class="label">Due Date:</div>
+                        <div class="value" id="due-date">September 8, 2025</div>
+                    </div>
+                    <div class="info-row">
+                        <div class="label">Status:</div>
+                        <div class="value" id="status">PENDING</div>
+                    </div>
+                    <div class="info-row">
+                        <div class="label">Authority:</div>
+                        <div class="value">Fed. Code 18-USC-1030</div>
+                    </div>
+                </div>
+            </div>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Compliance Service</th>
+                        <th>Federal Requirement</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cybersecurity Risk Assessment</td>
+                        <td>Mandatory under CFAA</td>
+                        <td class="amount">$2,685.00</td>
+                    </tr>
+                    <tr>
+                        <td>Digital Forensics Audit</td>
+                        <td>Federal Investigation Support</td>
+                        <td class="amount">$950.00</td>
+                    </tr>
+                    <tr>
+                        <td>Compliance Documentation</td>
+                        <td>Required Filing</td>
+                        <td class="amount">$1,150.00</td>
+                    </tr>
+                    <tr>
+                        <td>Emergency Response Fees</td>
+                        <td>Critical Priority Processing</td>
+                        <td class="amount">$100.00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="total">
+                <div class="total-line">
+                    <span>Subtotal:</span>
+                    <span class="amount">$4,885.00</span>
+                </div>
+                <div class="total-line">
+                    <span>Federal Processing Fee:</span>
+                    <span class="amount">$115.00</span>
+                </div>
+                <div class="total-line final">
+                    <span>TOTAL DUE:</span>
+                    <span>$5,000.00</span>
+                </div>
+            </div>
+
+            <div class="payment">
+                <h3>💳 Payment Instructions</h3>
+                <p style="color: #b8c5d1;">Submit payment via CashTap using the details below:</p>
+                <div class="payment-details">
+                    <div class="payment-line">
+                        <span class="payment-label">Recipient</span>
+                        <span class="payment-value">ProTech</span>
+                    </div>
+                    <div class="payment-line">
+                        <span class="payment-label">Amount</span>
+                        <span class="payment-value">$5,000.00</span>
+                    </div>
+                    <div class="payment-line">
+                        <span class="payment-label">Comment</span>
+                        <span class="payment-value" id="payment-comment">PSS-COMP-2025-3847</span>
+                    </div>
+                </div>
+                <div class="payment-note">
+                    <strong>Important:</strong> The comment must be included exactly as shown above. Payments submitted without the correct comment may not be processed and could result in compliance delays.
+                </div>
+            </div>
+
+            <div class="compliance">
+                <h3>⚠ Legal Notice</h3>
+                <p><strong>THIS IS NOT AN ERROR.</strong> You have been identified through federal cybersecurity monitoring systems as requiring immediate compliance assessment under the Computer Fraud and Abuse Act. Failure to remit payment by the specified deadline will result in automatic escalation to federal enforcement agencies and potential criminal investigation. This notice has been cross-referenced with federal databases and confirmed for accuracy. Payment obligations are non-negotiable and legally binding. This communication is authorized under 18 USC § 1030 and San Andreas Private Security Services Act. Queries will be forwarded to appropriate federal authorities.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <strong>ProTech Security Solutions</strong> | Federal Contractor ID: PSS-FC-2023<br>
+            Licensed under San Andreas PSS Act & Federal Security Guidelines
+        </div>
+    </div>
+
+    <script>
+        function generateNoticeId() {
+            const year = 2025;
+            const randomNum = Math.floor(Math.random() * 9000) + 1000;
+            return `PSS-COMP-${year}-${randomNum}`;
+        }
+        
+        function formatDate(date) {
+            const months = ['January', 'February', 'March', 'April', 'May', 'June',
+                           'July', 'August', 'September', 'October', 'November', 'December'];
+            return `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const noticeId = generateNoticeId();
+            document.getElementById('notice-id').textContent = noticeId;
+            document.getElementById('payment-comment').textContent = noticeId;
+            
+            const currentDate = new Date();
+            const issueDate = new Date(currentDate);
+            issueDate.setDate(currentDate.getDate() - 15);
+            
+            const dueDate = new Date(currentDate);
+            dueDate.setDate(currentDate.getDate() - 1); // Past due
+            
+            document.getElementById('issue-date').textContent = formatDate(issueDate);
+            document.getElementById('due-date').textContent = formatDate(dueDate);
+            
+            // Check if overdue
+            const statusElement = document.getElementById('status');
+            const warningElement = document.getElementById('warning-status');
+            const dueDateElement = document.getElementById('due-date');
+            
+            if (currentDate > dueDate) {
+                statusElement.textContent = 'OVERDUE';
+                statusElement.classList.add('overdue');
+                dueDateElement.classList.add('overdue');
+                warningElement.textContent = '⚠ PAYMENT OVERDUE - IMMEDIATE ACTION REQUIRED ⚠';
+            } else {
+                statusElement.textContent = 'PENDING';
+                warningElement.textContent = '⚠ PAYMENT REQUIRED - FEDERAL COMPLIANCE ⚠';
+            }
+        });
+    </script>
+</body>
+</html>
