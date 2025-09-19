@@ -1,0 +1,18 @@
+const c=[
+  {id: '1', name: 'Extreme Lane [TRUSTED VENDORS]', date: '2025-08-27', online: 20, deleted: 1, link: 'https://chat.gta.world/?invite=bBmNqsrGipW5TBG', about: 'TRUSTED VENDORS PAY 15K DEPOSIT FOR SCAM INSURANCE. BUSINESS VIA DMS. [ONLY ADMINS CAN SEND MESSAGES HERE, PLEASE DELETE IT IF YOU SEND IT!]'},
+  {id: '2', name: '[LSCHAT] LS VENDORS 💊☘️🧾💻💰', date: '2024-01-30', online: 105, deleted: 4, link: 'https://chat.gta.world/?invite=T5hGhdYT5Rb2bon', about: 'VENDORS MAY POST LISTINGS ONCE DAILY ONLY. ALL OTHER CONTENT IS FORBIDDEN AND CONTACT MUST BE THROUGH DMS OR FACE REMOVAL.'},
+  {id: '3', name: 'south central vendors 💊☘️🧾💻💰', date: '2025-06-06', online: 57, deleted: 5, link: 'https://chat.gta.world/?invite=l95NZUxgzNtPqrs', about: ''},
+  {id: '4', name: 'LS Strikers', date: '2024-06-12', online: 139, deleted: 14, link: 'https://chat.gta.world/?invite=SQHj7Ez5NTm6P7o', about: 'FORMER STREET RACING COMMUNITY. NOW UNDERGROUND MARKETPLACE.'},
+  {id: '5', name: 'smashsomone.today', date: '2025-03-31', online: 61, deleted: 7, link: 'https://chat.gta.world/?invite=CUEzCkMLkhlOKiq', about: 'FORMERLY KNOWN AS "SMASHSOMONE.ONION". NOW UNDERGROUND MARKETPLACE.'},
+  {id: '6', name: 'Coppermine', date: '2024-10-08', online: 137, deleted: 15, link: 'https://chat.gta.world/?invite=tPqQGpEPAl9zLj8', about: 'FORMERLY KNOWN AS "🎪 CIRCUS SHOP 🎪". NOW UNDERGROUND MARKETPLACE.'},
+  {id: '7', name: 'VPN', date: '2025-01-15', online: 139, deleted: 13, link: 'https://chat.gta.world/?invite=Ea75OGSCWYEfJuw', about: ''},
+  {id: '8', name: 'Trap House Recordz', date: '2024-11-25', online: 130, deleted: 14, link: 'https://chat.gta.world/?invite=hAJwB8QhmQ9cBX8', about: 'FORMERLY KNOWN AS "LS Dead Drops". NOW UNDERGROUND MARKETPLACE.'},
+  {id: '9', name: 'Mexico Runz', date: '2025-05-15', online: 40, deleted: 3, link: 'https://chat.gta.world/?invite=q8UIRyFwwsQXH0k', about: 'FORMER STREET RACING COMMUNITY. NOW UNDERGROUND MARKETPLACE.'},
+  {id: '10', name: '24', date: '2024-01-30', online: 7, deleted: 1, link: 'https://chat.gta.world/?invite=IiODT0HQrml84NH', about: 'FORMER LAW ENFORCEMENT CHAT, INACTIVE.'},
+  {id: '11', name: 'NO TITLE cars buy/sell/trade San Andreas', date: '2024-06-09', online: 123, deleted: 11, link: 'https://chat.gta.world/?invite=Ltn14btaqnc7BcF', about: 'FORMER STOLEN CARS MARKETPLACE. NOW UNDERGROUND MARKETPLACE.'},
+  {id: '12', name: 'Blue Eyes White Dragon', date: '2025-06-22', online: 16, deleted: 1, link: 'https://chat.gta.world/?invite=AKunRyGlDTyMrPN', about: ''},
+  {id: '13', name: 'SEB (Keep it SFW)', date: '2024-01-30', online: 19, deleted: 2, link: 'https://chat.gta.world/?invite=EMazCbhIPwQmmWP', about: 'FORMER LAW ENFORCEMENT CHAT, INACTIVE.'},
+  {id: '14', name: 'Make LS Trap Again 🔌', date: '2025-07-19', online: 20, deleted: 0, link: 'https://chat.gta.world/?invite=R1MLihoMzSgY8G0', about: ''},
+  {id: '15', name: 'Medical Members LS', date: '2024-07-09', online: 12, deleted: 0, link: 'https://chat.gta.world/?invite=I3XZanHpENEqLDL', about: 'ORIGINALLY SHARED BY @CraccCG ON FACEBROWSER.'},
+  {id: '16', name: 'Exotic Empire LS', date: '2024-07-21', online: 34, deleted: 3, link: 'https://chat.gta.world/?invite=6RbgSbo48bXt1PX', about: 'ORIGINALLY SHARED BY @trophiedupeight ON FACEBROWSER.'}
+];
