@@ -14,5 +14,10 @@ const c=[
   {id: '13', name: 'SEB (Keep it SFW)', date: '2024-01-30', online: 19, deleted: 2, link: 'https://chat.gta.world/?invite=EMazCbhIPwQmmWP', about: 'FORMER LAW ENFORCEMENT CHAT, INACTIVE.'},
   {id: '14', name: 'Make LS Trap Again 🔌', date: '2025-07-19', online: 20, deleted: 0, link: 'https://chat.gta.world/?invite=R1MLihoMzSgY8G0', about: ''},
   {id: '15', name: 'Medical Members LS', date: '2024-07-09', online: 12, deleted: 0, link: 'https://chat.gta.world/?invite=I3XZanHpENEqLDL', about: 'ORIGINALLY SHARED BY @CraccCG ON FACEBROWSER.'},
-  {id: '16', name: 'Exotic Empire LS', date: '2024-07-21', online: 34, deleted: 3, link: 'https://chat.gta.world/?invite=6RbgSbo48bXt1PX', about: 'ORIGINALLY SHARED BY @trophiedupeight ON FACEBROWSER.'}
+  {id: '16', name: 'Exotic Empire LS', date: '2024-07-21', online: 34, deleted: 3, link: 'https://chat.gta.world/?invite=6RbgSbo48bXt1PX', about: 'ORIGINALLY SHARED BY @trophiedupeight ON FACEBROWSER.'},
+  {id: '17', name: 'vin.exchange', date: '2025-07-14', online: 18, deleted: 0, link: 'https://chat.gta.world/?invite=slbduQcDAfJt05M', about: 'SHARED BY @VinewoodM98 ON LS CHAT'},
+  {id: '18', name: 'LS STRAINS 🍃', date: '2024-04-23', online: 10, deleted: 1, link: 'https://chat.gta.world/?invite=AOiBYRkFgVwFksL', about: 'SHARED BY @pnut#5 ON LS CHAT'},
+  {id: '19', name: 'LSPICKS - BEST SPORT TIPSTER', date: '2024-07-09', online: 8, deleted: 0, link: 'https://chat.gta.world/?invite=nnvBZgE7SuNvOGW', about: 'SHARED BY @LSPICKS $$ ON LS CHAT'},
+  {id: '20', name: 'Mary Jane Lane', date: '2024-08-10', online: 340, deleted: 36, link: 'https://chat.gta.world/?invite=LXUdqUxppvB4yqL', about: 'SHARED BY @LS Medicals ON LS CHAT'},
+  {id: '21', name: 'LS Vendorz', date: '2024-08-05', online: 468, deleted: 44, link: 'https://chat.gta.world/?invite=LEq7e6n0RuCtRZc', about: 'SHARED BY @LS Medicals ON LS CHAT'}
 ];
