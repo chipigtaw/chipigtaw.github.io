@@ -20,5 +20,6 @@ const c=[
   {id: '19', name: 'LSPICKS - BEST SPORT TIPSTER', date: '2024-07-09', online: 8, deleted: 0, link: 'https://chat.gta.world/?invite=nnvBZgE7SuNvOGW', about: 'SHARED BY @LSPICKS $$ ON LS CHAT.'},
   {id: '20', name: 'Mary Jane Lane', date: '2024-08-10', online: 340, deleted: 36, link: 'https://chat.gta.world/?invite=LXUdqUxppvB4yqL', about: 'SHARED BY @LS Medicals ON LS CHAT.'},
   {id: '21', name: 'LS Vendorz', date: '2024-08-05', online: 468, deleted: 44, link: 'https://chat.gta.world/?invite=LEq7e6n0RuCtRZc', about: 'SHARED BY @LS Medicals ON LS CHAT.'},
-  {id: '22', name: 'Private Listings ((18+ RP))', date: '2025-03-14', online: 40, deleted: 1, link: 'https://chat.gta.world/?invite=ucS112OUDAVT72d', about: 'FORMER ESCORT ADS CHAT, INACTIVE. (( 18+ ))'}
+  {id: '22', name: 'Private Listings ((18+ RP))', date: '2025-03-14', online: 40, deleted: 1, link: 'https://chat.gta.world/?invite=ucS112OUDAVT72d', about: 'FORMER ESCORT ADS CHAT, INACTIVE. (( 18+ ))'},
+  {id: '23', name: 'Gas Delivery', date: '2025-09-24', online: 5, deleted: 0, link: 'https://chat.gta.world/?invite=H6azciPdKc29J3F', about: 'MARIJUANA DELIVERY SERVICE ESTABLISHED BY mota delivery. CASHTAP PAYMENTS.'}
 ];
