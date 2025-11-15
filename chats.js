@@ -1,5 +1,5 @@
 const c=[
-  {id: '1', name: 'KTOWN Pharma', date: '2025-11-15', online: 4, deleted: 0, link: 'https://chat.gta.world/?invite=6AAtoXfqHbFDDvR', about: 'PREMIUM Pharmaceuticals and MEDICAL Cannabis Market ❌ADVERTISING=BAN.<br>✅PRIVATE VENDORS. ✅QUALITY GUARANTEED. ✅DISCREET.'},
+  {id: '1', name: 'KTOWN Pharma', date: '2025-11-15', online: 4, deleted: 0, link: 'https://chat.gta.world/?invite=6AAtoXfqHbFDDvR', about: 'PREMIUM Pharmaceuticals and MEDICAL Cannabis Market ❌ADVERTISING=BAN. ✅PRIVATE VENDORS. ✅QUALITY GUARANTEED. ✅DISCREET.'},
   {id: '2', name: 'Extreme Lane [TRUSTED VENDORS]', date: '2025-08-27', online: 47, deleted: 2, link: 'https://chat.gta.world/?invite=bBmNqsrGipW5TBG', about: 'TRUSTED VENDORS PAY 15K DEPOSIT FOR SCAM INSURANCE. BUSINESS VIA DMS. [ONLY ADMINS CAN SEND MESSAGES HERE, PLEASE DELETE IT IF YOU SEND IT!]'},
   {id: '3', name: '[LSCHAT] LS VENDORS 💊☘️🧾💻💰', date: '2024-01-30', online: 141, deleted: 11, link: 'https://chat.gta.world/?invite=T5hGhdYT5Rb2bon', about: 'VENDORS MAY POST LISTINGS ONCE DAILY ONLY. ALL OTHER CONTENT IS FORBIDDEN AND CONTACT MUST BE THROUGH DMS OR FACE REMOVAL.'},
   {id: '4', name: 'south central vendors 💊☘️🧾💻💰', date: '2025-06-06', online: 81, deleted: 7, link: 'https://chat.gta.world/?invite=l95NZUxgzNtPqrs', about: ''},
